@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   new Promise(
-    function(resolve,reject){
+    function(a,b){
 
       setTimeout(function(){
         console.log(3);
-        resolve("ok")
+        a("ok")
       },2000)
 
     }
